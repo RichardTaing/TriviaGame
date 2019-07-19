@@ -1,12 +1,16 @@
 html,
 body {
   height: 100%;
-  background: url("http://hdwpro.com/wp-content/uploads/2016/04/Sports-Basketball-Wallpaper.jpg")
+  background: url("https://wallpaperhd.wiki/wp-content/uploads/hd-backgrounds-basketball-wallpaper.wiki-basketball-court-full-hd-background-pic-wpc009939.jpg")
     no-repeat center fixed;
   margin: 0px;
   display: flex;
   justify-content: center;
   min-width: 550px;
+}
+
+#start {
+  background-color: transparent;
 }
 
 h3 {
@@ -59,11 +63,12 @@ h5 {
 }
 
 .questions {
+  color: aliceblue;
   min-height: 220px;
-  background-color: rgb(194, 194, 149);
+  /* background-color: rgb(194, 194, 149); */
   border-radius: 15px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
   padding: 15px;
 }
 
@@ -79,11 +84,12 @@ h5 {
 }
 
 .oneAnswer {
+  color: aliceblue;
   min-height: 25%;
-  background-color: rgb(194, 194, 149);
+  /* background-color: rgb(194, 194, 149); */
   border-radius: 15px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
   padding: 15px;
 }
 
