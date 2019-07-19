@@ -122,7 +122,7 @@ var TriviaObj = {
     "On August 24, 2014, Griner became the first WNBA player to dunk in a playoff game when she helped the Phoenix Mercury defeat the Los Angeles Sparks, 93-68."
   ],
 
-  rightAnswerNum: [0, 0, 2, 2, 2, 3, 2, 3, 0, 3, 2, 0, 3, 0, 1],
+  rightAnswerNum: [0, 0, 2, 2, 2, 3, 2, 3, 0, 3, 2],
 
   gifAddress: [
     "https://media.giphy.com/media/wiWms9hnLkVAQ/giphy.gif",
@@ -152,7 +152,7 @@ var TriviaObj = {
 
   showQuestion() {
     if (this.questionOn) {
-      if (this.questionNumber < 15) {
+      if (this.questionNumber < 10) {
         $(".triviaText").html(
           "<h4><b>" + this.questionsArr[this.questionNumber] + "</b></h4>"
         );
@@ -285,7 +285,7 @@ var TriviaObj = {
     setTimeout(function() {
       $(".giphyDisplay").fadeIn(1500);
       $(".col-7.answers").hide();
-    }, 2000);
+    }, 900);
 
     $(".giphyDisplay").attr("src", this.gifAddress[this.questionNumber]);
 
@@ -295,7 +295,7 @@ var TriviaObj = {
       setTimeout(function() {
         TriviaObj.questionOn = true;
         TriviaObj.showQuestion();
-      }, 500);
+      }, 400);
     }, this.giphyTime);
   }
 };
