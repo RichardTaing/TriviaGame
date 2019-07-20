@@ -105,7 +105,7 @@ h5 {
   padding: 15px;
 }
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 }
 
 @media screen and (max-width: 768px) {
@@ -117,14 +117,6 @@ h5 {
   }
   .giphyDisplay {
     width: 450px;
-    height: auto;
-    top: 25px;
-    max-height: 290px;
-  } */
-
-@media screen and (max-width: 980px) and (min-width: 375px) {
-  .giphyDisplay {
-    width: auto;
     height: auto;
     top: 25px;
     max-height: 290px;
