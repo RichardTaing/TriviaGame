@@ -145,7 +145,7 @@ var TriviaObj = {
         "So go ahead and test your Basketball Knowledge. <br>" +
         "REMEMBER! There is a time limit to each question. <br>" +
         "Good luck!!!</h5><br>" +
-        "<button id='start' class='btn btn-secondary'>Press Here to Start</button></div>"
+        "<button id='start' class='btn btn-secondary'>Press Here to Start</button></div>" // Creates the Start button
     );
     $(".col-7.answers").hide();
   },
@@ -174,7 +174,7 @@ var TriviaObj = {
         $(".triviaText").html(
           "<h3><b>Was that a buzzer beater OR a Brain Fade!!!</b></h3><br><br><br>" +
             "<button id='start' class='btn btn-secondary'> " +
-            "Press to Reload</button></div>"
+            "Press to Reload</button></div>" // Restarts game
         );
         $(".oneAnswer").empty();
         this.questionOn = false;
