@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Sixers";
+  src: url("../fonts/NBA/NBA-76ers.ttf");
+}
+@font-face {
+  font-family: "Suns";
+  src: url("../fonts/NBA/NBA-Suns.ttf");
+}
+
 html,
 body {
   height: 100%;
@@ -16,10 +25,13 @@ body {
 h3 {
   line-height: 20pt;
   margin: 0;
+  font-size: 25pt;
+  font-family: Sixers;
 }
 h4 {
-  font-size: 14pt;
+  font-size: 17pt;
   margin: 0;
+  font-family: Suns;
 }
 
 h5 {
@@ -93,7 +105,7 @@ h5 {
   padding: 15px;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 }
 
 @media screen and (max-width: 768px) {
@@ -105,6 +117,14 @@ h5 {
   }
   .giphyDisplay {
     width: 450px;
+    height: auto;
+    top: 25px;
+    max-height: 290px;
+  } */
+
+@media screen and (max-width: 980px) and (min-width: 375px) {
+  .giphyDisplay {
+    width: auto;
     height: auto;
     top: 25px;
     max-height: 290px;
