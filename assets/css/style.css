@@ -121,9 +121,6 @@ h5 {
 }
 
 @media screen and (max-width: 640px) {
-  .container {
-    margin: 40px;
-  }
   .giphyDisplay {
     width: auto;
     height: auto;
